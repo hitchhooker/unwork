@@ -35,7 +35,7 @@ This will create a shared library named `unwork.so`.
 To compile `shotter`, run:
 
 ```bash
-gcc -o shotter shotter.c -lX11 -ljpeg
+gcc -o shotter shotter.c -lX11 -lXext -lXcomposite -ljpeg
 ```
 
 This will create an executable named `shotter`.
